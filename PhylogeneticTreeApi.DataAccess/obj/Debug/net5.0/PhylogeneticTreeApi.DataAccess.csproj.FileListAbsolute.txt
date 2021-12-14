@@ -1,0 +1,15 @@
+D:\ProyectoDefontana\Prueba1-Defontana\PhylogeneticTreeApi.DataAccess\obj\Debug\net5.0\PhylogeneticTreeApi.DataAccess.csproj.AssemblyReference.cache
+D:\ProyectoDefontana\Prueba1-Defontana\PhylogeneticTreeApi.DataAccess\obj\Debug\net5.0\PhylogeneticTreeApi.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProyectoDefontana\Prueba1-Defontana\PhylogeneticTreeApi.DataAccess\obj\Debug\net5.0\PhylogeneticTreeApi.DataAccess.AssemblyInfoInputs.cache
+D:\ProyectoDefontana\Prueba1-Defontana\PhylogeneticTreeApi.DataAccess\obj\Debug\net5.0\PhylogeneticTreeApi.DataAccess.AssemblyInfo.cs
+D:\ProyectoDefontana\Prueba1-Defontana\PhylogeneticTreeApi.DataAccess\obj\Debug\net5.0\PhylogeneticTreeApi.DataAccess.csproj.CoreCompileInputs.cache
+D:\ProyectoDefontana\Prueba1-Defontana\PhylogeneticTreeApi.DataAccess\bin\Debug\net5.0\PhylogeneticTreeApi.DataAccess.deps.json
+D:\ProyectoDefontana\Prueba1-Defontana\PhylogeneticTreeApi.DataAccess\bin\Debug\net5.0\PhylogeneticTreeApi.DataAccess.dll
+D:\ProyectoDefontana\Prueba1-Defontana\PhylogeneticTreeApi.DataAccess\bin\Debug\net5.0\ref\PhylogeneticTreeApi.DataAccess.dll
+D:\ProyectoDefontana\Prueba1-Defontana\PhylogeneticTreeApi.DataAccess\bin\Debug\net5.0\PhylogeneticTreeApi.DataAccess.pdb
+D:\ProyectoDefontana\Prueba1-Defontana\PhylogeneticTreeApi.DataAccess\bin\Debug\net5.0\PhylogeneticTreeApi.Entity.dll
+D:\ProyectoDefontana\Prueba1-Defontana\PhylogeneticTreeApi.DataAccess\bin\Debug\net5.0\PhylogeneticTreeApi.Entity.pdb
+D:\ProyectoDefontana\Prueba1-Defontana\PhylogeneticTreeApi.DataAccess\obj\Debug\net5.0\PhylogeneticTreeApi.DataAccess.csproj.CopyComplete
+D:\ProyectoDefontana\Prueba1-Defontana\PhylogeneticTreeApi.DataAccess\obj\Debug\net5.0\PhylogeneticTreeApi.DataAccess.dll
+D:\ProyectoDefontana\Prueba1-Defontana\PhylogeneticTreeApi.DataAccess\obj\Debug\net5.0\ref\PhylogeneticTreeApi.DataAccess.dll
+D:\ProyectoDefontana\Prueba1-Defontana\PhylogeneticTreeApi.DataAccess\obj\Debug\net5.0\PhylogeneticTreeApi.DataAccess.pdb
