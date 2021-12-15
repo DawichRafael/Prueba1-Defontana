@@ -30,7 +30,7 @@ namespace PhylogeneticTreeApi.Controller
         {
             try
             {
-               Branches[] trees = new Branches[] { };
+                Branches[] trees = new Branches[] { };
 
                 using (var httpClient = new HttpClient())
                 {
@@ -38,13 +38,13 @@ namespace PhylogeneticTreeApi.Controller
                     {
                         string apiResponse = await response.Content.ReadAsStringAsync();
 
-                        var das = JObject.Parse(apiResponse)["data"];
-                        var other = JsonConvert.SerializeObject(das);
-                        var sd = das.ToObject<Branches[]>();
-                        trees = JsonConvert.DeserializeObject<Branches[]>(other);
+                        var data = JObject.Parse(apiResponse)["data"];
+                        var jsonString = JsonConvert.SerializeObject(data);
+                        trees = JsonConvert.DeserializeObject<Branches[]>(jsonString);
                     }
                 }
-                return Ok(_homeData.getTyphologenetic(trees));
+
+                return Ok(JsonConvert.SerializeObject(_homeData.getTyphologenetic(trees)));
             }
             catch (Exception exception)
             {

@@ -9,6 +9,6 @@ namespace PhylogeneticTreeApi.DataAccess
 {
     public interface IHomeData
     {
-        Task<IEnumerable<OutBranches>> getTyphologenetic(Branches[] data);
+      IEnumerable<OutBranches> getTyphologenetic(Branches[] data);
     }
 }

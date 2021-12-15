@@ -8,14 +8,14 @@ namespace PhylogeneticTreeApi.DataAccess
 {
     public class HomeData : IHomeData
     {
-        public async Task<IEnumerable<OutBranches>> getTyphologenetic(Branches[] data)
+        public IEnumerable<OutBranches> getTyphologenetic(Branches[] data)
         {
-            return await Task.FromResult(MakeTreeList(data.ToList(), 0));
+            return MakeTreeList(data.ToList(), 0);
         }
 
-        static List<OutBranches> MakeTreeList(List<Branches> data, int parentStart)
+        static List<OutBranches> MakeTreeList(List<Branches> data, int v)
         {
-            return data.Where(x => x.Parent == parentStart).Select(x => new OutBranches
+            return data.Where(x => x.Parent == v).Select(x => new OutBranches
             {
                 Id = x.Id,
                 Name = x.Name,
