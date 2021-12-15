@@ -44,7 +44,7 @@ namespace PhylogeneticTreeApi.Controller
                     }
                 }
 
-                return Ok(JsonConvert.SerializeObject(_homeData.getTyphologenetic(trees)));
+                return Content(JsonConvert.SerializeObject(_homeData.getTyphologenetic(trees)), "application/json");
             }
             catch (Exception exception)
             {
