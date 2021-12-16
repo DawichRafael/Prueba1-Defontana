@@ -4,5 +4,11 @@
         <name>PhylogeneticTreeApi</name>
     </assembly>
     <members>
+        <member name="M:PhylogeneticTreeApi.Controller.HomeController.getTyphologenetic">
+            <summary>
+            Servicio para visualizar el árbol de la vida (Ordenado)
+            </summary>
+            <remarks>Puede ser utilizado para visualizar en una página web</remarks>
+        </member>
     </members>
 </doc>

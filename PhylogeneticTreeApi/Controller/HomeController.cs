@@ -24,6 +24,10 @@ namespace PhylogeneticTreeApi.Controller
             _homeData = homeData;
         }
 
+        /// <summary>
+        /// Servicio para visualizar el árbol de la vida (Ordenado)
+        /// </summary>
+        /// <remarks>Puede ser utilizado para visualizar en una página web</remarks>
         [HttpGet]
         [Route("getTyphologenetic")]
         public async Task<IActionResult> getTyphologenetic()
