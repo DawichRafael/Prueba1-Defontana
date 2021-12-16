@@ -9,4 +9,3 @@ D:\ProyectoDefontana\Prueba1-Defontana\PhylogeneticTreeApi.Entity\obj\Debug\net5
 D:\ProyectoDefontana\Prueba1-Defontana\PhylogeneticTreeApi.Entity\obj\Debug\net5.0\PhylogeneticTreeApi.Entity.dll
 D:\ProyectoDefontana\Prueba1-Defontana\PhylogeneticTreeApi.Entity\obj\Debug\net5.0\ref\PhylogeneticTreeApi.Entity.dll
 D:\ProyectoDefontana\Prueba1-Defontana\PhylogeneticTreeApi.Entity\obj\Debug\net5.0\PhylogeneticTreeApi.Entity.pdb
-D:\ProyectoDefontana\Prueba1-Defontana\PhylogeneticTreeApi.Entity\obj\Debug\net5.0\PhylogeneticTreeApi.Entity.csproj.AssemblyReference.cache

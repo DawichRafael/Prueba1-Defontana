@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PhylogeneticTreeApi.Entity.Models
 {
-    public class Branches
+    public class Branch
     {
         public string Id { get; set; }
         public string Name { get; set; }
