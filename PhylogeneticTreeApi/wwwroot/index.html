@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/deltoss/d3-mitch-tree@1.0.2/dist/js/d3-mitch-tree.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/deltoss/d3-mitch-tree@1.0.2/dist/css/d3-mitch-tree.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/deltoss/d3-mitch-tree@1.0.2/dist/css/d3-mitch-tree-theme-default.min.css">
+</head>
+<body>
+    <section id="visualisation">
+    </section>
+    <script>
+
+        function httpGet(theUrl) {
+            var xmlHttp = new XMLHttpRequest();
+            xmlHttp.open("GET", theUrl, false);
+            xmlHttp.send(null);
+            return xmlHttp.responseText;
+        }
+        var datax = httpGet('api/Home/getTyphologenetic');
+        var datos = JSON.parse(datax);
+        var branchTree = Object.assign({}, datos);
+        var data =
+        {
+            "Id": "0",
+            "Name": "Typhologenetic Tree",
+            "branch": [branchTree[1], branchTree[0], branchTree[2]]
+        };
+
+        var treePlugin = new d3.mitchTree.boxedTree()
+            .setAllowFocus(false)
+            .setAllowZoom(false)
+            .setAllowPan(true)
+            .setAllowNodeCentering(false)
+            .setData(data)
+            .setAllowFocus(false)
+            .setElement(document.getElementById("visualisation"))
+            .setIdAccessor(function (data) {
+                return data.Id;
+            })
+            .setChildrenAccessor(function (data) {
+                return data.branch;
+            })
+            .setBodyDisplayTextAccessor(function (data) {
+                return data.Name;
+            })
+            .setTitleDisplayTextAccessor(function (data) {
+                return data.Name;
+            })
+            .initialize();
+    </script>
+</body>
+</html>
